@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project version="3.2.4">
+ <presentationParams>
+  <parameter name="presenceInterval" value="0"/>
+  <parameter name="enableStatistics" value="true"/>
+  <parameter name="lostTimeout" value="0.5"/>
+  <parameter name="detectors">
+   <field name="dashdot">
+    <field name="max_error" value="0.05"/>
+    <field name="pattern_size" value="32"/>
+    <field name="inversion" value="normal"/>
+   </field>
+   <field name="image">
+    <field name="grid_rows" value="4"/>
+    <field name="grid_cols" value="4"/>
+   </field>
+  </parameter>
+  <parameter name="flipFrames">
+   <field name="x" value="false"/>
+   <field name="y" value="false"/>
+  </parameter>
+  <parameter name="clipPlanes">
+   <field name="near" value="0.01"/>
+   <field name="far" value="10"/>
+  </parameter>
+  <parameter name="cam">
+   <field name="fx" value="auto"/>
+   <field name="fy" value="auto"/>
+   <field name="cx" value="auto"/>
+   <field name="cy" value="auto"/>
+   <field name="distortion" length="4">
+    <item index="1" value="auto"/>
+    <item index="2" value="auto"/>
+    <item index="3" value="auto"/>
+    <item index="4" value="auto"/>
+   </field>
+  </parameter>
+  <parameter name="useMainCamera" value="true"/>
+  <parameter name="clearColor">
+   <field name="x" value="0.7"/>
+   <field name="y" value="0.7"/>
+   <field name="z" value="0.7"/>
+   <field name="w" value="1"/>
+  </parameter>
+ </presentationParams>
+ <resources dir="resources_Animal_days">
+  <resource id="6168d4a1-7e7-9d1-4f8-b93" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="opo7XZ0ewGI.jpg">
+   <filename value="opo7XZ0ewGI.jpg"/>
+   <source value="C:\Users\Cyber Evil\Downloads\opo7XZ0ewGI.jpg"/>
+  </resource>
+  <resource id="6168d65c-3fb-c34-44f-ca5" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="14089_Circus_Bear_Standing_on_large_ball_v1_l2.obj">
+   <filename value="14089_Circus_Bear_Standing_on_large_ball_v1_l2.obj"/>
+   <source value="C:\Users\Cyber Evil\Downloads\Circus_bear_standing_on_large_ball_V1_L293a29c83-6e6f-4fb7-8508-174536c4a81a\14089_Circus_Bear_Standing_on_large_ball_v1_l2.obj"/>
+   <optimizations/>
+  </resource>
+  <resource id="6168f506-232-9fb-7f6-c37" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="icons8-кнопка-воспроизведения-круглая-80.png">
+   <filename value="icons8-кнопка-воспроизведения-круглая-80.png"/>
+   <source value="D:\Objects_for_AR\Menu_icons\icons8-кнопка-воспроизведения-круглая-80.png"/>
+  </resource>
+  <resource id="6168f990-9b5-a2e-7d9-fb9" kind="video" local="true" forceExport="false" rawAssetsExport="false" name="tiiiiiigger.webm">
+   <filename value="tiiiiiigger.webm"/>
+   <source value="D:\Objects_for_AR\Menu_gif\tiiiiiigger.webm"/>
+  </resource>
+  <resource id="616901be-83f-a93-531-f95" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="cat.jpg">
+   <filename value="cat.jpg"/>
+   <source value="D:\Objects_for_AR\Menu_icons\cat.jpg"/>
+  </resource>
+  <resource id="616904ba-e71-d39-4d6-acc" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="icons8-редактировать-80.png">
+   <filename value="icons8-редактировать-80.png"/>
+   <source value="D:\Objects_for_AR\Menu_icons\icons8-редактировать-80.png"/>
+  </resource>
+  <resource id="61692d7a-3a1-cbe-c96-711" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="icons8-перемотка-назад-80.png">
+   <filename value="icons8-перемотка-назад-80.png"/>
+   <source value="D:\Objects_for_AR\Menu_icons\icons8-перемотка-назад-80.png"/>
+  </resource>
+  <resource id="6169303e-efb-8d8-f17-3be" kind="video" local="true" forceExport="false" rawAssetsExport="false" name="play_button.webm">
+   <filename value="play_button.webm"/>
+   <source value="D:\Objects_for_AR\Menu_gif\play_button.webm"/>
+  </resource>
+  <resource id="616a2805-d78-758-f91-d3c" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="bear-text.png">
+   <filename value="bear-text.png"/>
+   <source value="D:\Objects_for_AR\text\bear-text.png"/>
+  </resource>
+  <resource id="616a2971-262-811-ed5-8b4" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="copy_bear.png">
+   <filename value="copy_bear.png"/>
+   <source value="D:\Objects_for_AR\text\copy_bear.png"/>
+  </resource>
+  <resource id="616a2c1a-244-1a5-e77-9ca" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="bear.jpg">
+   <filename value="bear.jpg"/>
+   <source value="D:\Objects_for_AR\ar_picture\bear.jpg"/>
+  </resource>
+  <resource id="616a2c44-6e8-225-8e5-773" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="tiger.jpg">
+   <filename value="tiger.jpg"/>
+   <source value="D:\Objects_for_AR\ar_picture\tiger.jpg"/>
+  </resource>
+  <resource id="616a2ce3-c89-41a-cf1-eef" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="sova.jpg">
+   <filename value="sova.jpg"/>
+   <source value="D:\Objects_for_AR\ar_picture\sova.jpg"/>
+  </resource>
+  <resource id="616a2cf3-ef2-f28-e19-fbd" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="fox.jpg">
+   <filename value="fox.jpg"/>
+   <source value="D:\Objects_for_AR\ar_picture\fox.jpg"/>
+  </resource>
+  <resource id="616a3150-feb-7dc-363-129" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="animation_bear.fbx">
+   <filename value="animation_bear.fbx"/>
+   <source value="D:\Objects_for_AR\Models\animation_bear.fbx"/>
+   <optimizations/>
+  </resource>
+  <resource id="616a3348-628-415-5a1-5b3" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="group.jpg">
+   <filename value="group.jpg"/>
+   <source value="D:\Objects_for_AR\ar_picture\group.jpg"/>
+  </resource>
+  <resource id="616a34d3-a54-f46-13e-85c" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="tiger.fbx">
+   <filename value="tiger.fbx"/>
+   <source value="D:\Objects_for_AR\Models\tiger.fbx"/>
+   <optimizations/>
+  </resource>
+  <resource id="616a350b-9e6-547-6bf-d85" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="bear.fbx">
+   <filename value="bear.fbx"/>
+   <source value="D:\Objects_for_AR\Models\bear.fbx"/>
+   <optimizations/>
+  </resource>
+  <resource id="616a3539-977-657-ce9-371" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="fox.fbx">
+   <filename value="fox.fbx"/>
+   <source value="D:\Objects_for_AR\Models\fox.fbx"/>
+   <optimizations/>
+  </resource>
+  <resource id="616a3be2-1a6-6eb-2d4-dc5" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="tiger_text.png">
+   <filename value="tiger_text.png"/>
+   <source value="D:\Objects_for_AR\text\tiger_text.png"/>
+  </resource>
+  <resource id="616a3bfa-4db-adb-12e-24d" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="sova_text.png">
+   <filename value="sova_text.png"/>
+   <source value="D:\Objects_for_AR\text\sova_text.png"/>
+  </resource>
+  <resource id="616a3c07-dff-9fb-6a2-38e" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="Fox_text.png">
+   <filename value="Fox_text.png"/>
+   <source value="D:\Objects_for_AR\text\Fox_text.png"/>
+  </resource>
+  <resource id="616a3e5f-a35-8d7-296-d3f" kind="image" local="false" forceExport="false" rawAssetsExport="false" name="telegram_stickers.jpg">
+   <filename value="telegram_stickers.jpg"/>
+   <source value="D:\Objects_for_AR\ar_picture\telegram_stickers.jpg"/>
+  </resource>
+  <resource id="616a401d-af8-52d-ca2-97d" kind="image" local="false" forceExport="false" rawAssetsExport="false" name="telegramm.jpg">
+   <filename value="telegramm.jpg"/>
+   <source value="D:\Objects_for_AR\ar_picture\telegramm.jpg"/>
+  </resource>
+  <resource id="616a40c1-271-e6a-876-3e5" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="teeeeeleeegrammm.png">
+   <filename value="teeeeeleeegrammm.png"/>
+   <source value="D:\Objects_for_AR\ar_picture\teeeeeleeegrammm.png"/>
+  </resource>
+  <resource id="616a41a0-f6e-3c6-bd2-eae" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="telega.jpg">
+   <filename value="telega.jpg"/>
+   <source value="D:\Objects_for_AR\ar_picture\telega.jpg"/>
+  </resource>
+  <resource id="616a425b-df2-7a5-c2c-e59" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="sova.fbx">
+   <filename value="sova.fbx"/>
+   <source value="D:\Objects_for_AR\Models\sova.fbx"/>
+   <optimizations/>
+  </resource>
+  <resource id="616a4478-9d4-168-42f-6a9" kind="model" local="false" forceExport="false" rawAssetsExport="false" name="tiger_animation.fbx">
+   <filename value="tiger_animation.fbx"/>
+   <source value="D:\Objects_for_AR\Models\tiger_animation.fbx"/>
+   <optimizations/>
+  </resource>
+  <resource id="616a4640-b39-54c-3c2-a12" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="animation_tiger.fbx">
+   <filename value="animation_tiger.fbx"/>
+   <source value="D:\Objects_for_AR\Models\animation_tiger.fbx"/>
+   <optimizations/>
+  </resource>
+  <resource id="616a468c-aab-3ac-f66-1e9" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="animation_sova.fbx">
+   <filename value="animation_sova.fbx"/>
+   <source value="D:\Objects_for_AR\Models\animation_sova.fbx"/>
+   <optimizations/>
+  </resource>
+  <resource id="616a49dc-5c3-54c-f17-a8a" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="animation_fox.fbx">
+   <filename value="animation_fox.fbx"/>
+   <source value="D:\Objects_for_AR\Models\animation_fox.fbx"/>
+   <optimizations/>
+  </resource>
+  <resource id="616a585e-6c3-41f-faf-15f" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="play button.png">
+   <filename value="play button.png"/>
+  </resource>
+  <resource id="616a5dbf-feb-eda-f89-e75" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="logo.png">
+   <filename value="logo.png"/>
+  </resource>
+  <resource id="OpenSans-Regular" kind="font" local="false" forceExport="false" rawAssetsExport="false" name="OpenSans-Regular.ttf">
+   <filename value="OpenSans-Regular.ttf"/>
+   <source value="${STUDIO_RESOURCES_DIR}/fonts/OpenSans-Regular.ttf"/>
+  </resource>
+ </resources>
+ <reactors>
+  <reactor id="6168d27f-ee76-66bd-8cae" name="marker_bear" type="node.marker">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="2">
+    <item index="1" value="6168d5a6-3369-776d-5eef"/>
+    <item index="2" value="616a3a20-e8d8-abd4-4aab"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="0.17340953543568"/>
+    <field name="y" value="-0.015715973397834"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="image"/>
+   <parameter name="pattern" value="616a2c1a-244-1a5-e77-9ca"/>
+   <parameter name="gridSize">
+    <field name="x" value="4"/>
+    <field name="y" value="4"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.1"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="true"/>
+  </reactor>
+  <reactor id="6168d429-2dd7-ee87-eb1d" name="tiger" type="node.marker">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="1">
+    <item index="1" value="6168f0b5-28a7-d35d-c6f4"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="-0.0094334788203403"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="image"/>
+   <parameter name="pattern" value="616a2c44-6e8-225-8e5-773"/>
+   <parameter name="gridSize">
+    <field name="x" value="4"/>
+    <field name="y" value="4"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.1"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="6168d5a6-3369-776d-5eef" name="model_bear" type="node.model">
+   <parameter name="visible" value="false"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.052521296517328"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="-14.698181548877"/>
+    <field name="y" value="-90.369577928423"/>
+    <field name="z" value="-88.543698127061"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.00026720136435252"/>
+    <field name="y" value="0.00026720136435252"/>
+    <field name="z" value="0.00026720136435252"/>
+   </parameter>
+   <parameter name="model" value="616a350b-9e6-547-6bf-d85"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="6168d886-8b8a-2414-9c8b" name="menuuuu" type="rect.image">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-center"/>
+   <parameter name="rect.size">
+    <field name="policy" value="min_aspect"/>
+    <field name="x" value="100.000000%"/>
+    <field name="y" value="100.000000%"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0.75"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000px"/>
+    <field name="y" value="0.000000px"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000px"/>
+    <field name="right" value="0.000000px"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId"/>
+   <field name="exportEnabled" value="false"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="6168d99d-8955-dde6-fc9e" name="AR" type="rect.image">
+   <parameter name="visible" value="false"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-bottom"/>
+   <parameter name="rect.size">
+    <field name="policy" value="simple"/>
+    <field name="x" value="7.000000%"/>
+    <field name="y" value="7.000000%"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000px"/>
+    <field name="y" value="0.000000px"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000px"/>
+    <field name="right" value="0.000000px"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="6168f506-232-9fb-7f6-c37"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="6168da9a-cd25-2222-6e47" name="screan_ar" type="node.rect">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="7">
+    <item index="1" value="61690484-f856-53c3-1d6e"/>
+    <item index="2" value="6168db7e-c7f8-7d1d-8692"/>
+    <item index="3" value="61692b56-827d-27dc-7ce3"/>
+    <item index="4" value="616a27e4-6ef5-62d4-ed35"/>
+    <item index="5" value="616a345f-789c-811f-64c8"/>
+    <item index="6" value="616a3469-2457-6579-a42d"/>
+    <item index="7" value="616a3473-9633-4cb1-44f8"/>
+   </parameter>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-center"/>
+   <parameter name="rect.size">
+    <field name="policy" value="simple"/>
+    <field name="x" value="100.000000%"/>
+    <field name="y" value="100.000000%"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000px"/>
+    <field name="y" value="0.000000px"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000px"/>
+    <field name="right" value="0.000000px"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="6168db7e-c7f8-7d1d-8692" name="text_back" type="rect.text">
+   <parameter name="visible" value="false"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="left-top"/>
+   <parameter name="rect.size">
+    <field name="policy" value="simple"/>
+    <field name="x" value="20.000000%"/>
+    <field name="y" value="10.000000%"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="1"/>
+    <field name="alpha" value="0.75"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000px"/>
+    <field name="y" value="0.000000px"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000px"/>
+    <field name="right" value="0.000000px"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="text.value" value="Назад"/>
+   <parameter name="text.font_id" value="OpenSans-Regular"/>
+   <parameter name="text.font_size" value="4.000000%v"/>
+   <parameter name="text.color">
+    <field name="red" value="1"/>
+    <field name="green" value="1"/>
+    <field name="blue" value="1"/>
+    <field name="alpha" value="1"/>
+   </parameter>
+   <parameter name="text.align" value="center-center"/>
+   <parameter name="text.auto_wrap" value="false"/>
+   <parameter name="text.line_spacing" value="0.15"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="6168f0b5-28a7-d35d-c6f4" name="model_tiger" type="node.model">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="trans">
+    <field name="x" value="-0.10817315838697"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.047211571887964"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="-6.3871696779302"/>
+    <field name="y" value="-87.361991674668"/>
+    <field name="z" value="-99.559337615864"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.00018605428382575"/>
+    <field name="y" value="0.00018605428382575"/>
+    <field name="z" value="0.00018605428382575"/>
+   </parameter>
+   <parameter name="model" value="616a4640-b39-54c-3c2-a12"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="6168f8ec-313b-26d4-f7cb" name="video01" type="rect.video">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="5">
+    <item index="1" value="6168d99d-8955-dde6-fc9e"/>
+    <item index="2" value="61692fff-439b-8f43-5ff3"/>
+    <item index="3" value="61693221-df1a-9fd8-9298"/>
+    <item index="4" value="616932a4-fb6f-5dbd-98cb"/>
+    <item index="5" value="616a5dc5-8e88-7d27-ff46"/>
+   </parameter>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-center"/>
+   <parameter name="rect.size">
+    <field name="policy" value="simple"/>
+    <field name="x" value="100.000000%"/>
+    <field name="y" value="100.000000%"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0.75"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000px"/>
+    <field name="y" value="0.000000px"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000px"/>
+    <field name="right" value="0.000000px"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="6168f990-9b5-a2e-7d9-fb9"/>
+   <parameter name="playMode" value="loop"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="61690484-f856-53c3-1d6e" name="edit-button" type="rect.image">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="right-top"/>
+   <parameter name="rect.size">
+    <field name="policy" value="simple"/>
+    <field name="x" value="200.000000px"/>
+    <field name="y" value="200.000000px"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="-20.000000px"/>
+    <field name="y" value="-20.000000px"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000px"/>
+    <field name="right" value="0.000000px"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="616904ba-e71-d39-4d6-acc"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="61692b56-827d-27dc-7ce3" name="back_button" type="rect.image">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="left-top"/>
+   <parameter name="rect.size">
+    <field name="policy" value="simple"/>
+    <field name="x" value="200.000000px"/>
+    <field name="y" value="200.000000px"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="20.000000px"/>
+    <field name="y" value="-20.000000px"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000px"/>
+    <field name="right" value="0.000000px"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="61692d7a-3a1-cbe-c96-711"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="61692fff-439b-8f43-5ff3" name="play_button" type="rect.video">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-bottom"/>
+   <parameter name="rect.size">
+    <field name="policy" value="simple"/>
+    <field name="x" value="200.000000px"/>
+    <field name="y" value="200.000000px"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0.75"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000px"/>
+    <field name="y" value="40.000000px"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000px"/>
+    <field name="right" value="0.000000px"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="6169303e-efb-8d8-f17-3be"/>
+   <parameter name="playMode" value="once"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="61693221-df1a-9fd8-9298" name="down_bar" type="node.rect">
+   <parameter name="visible" value="false"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-bottom"/>
+   <parameter name="rect.size">
+    <field name="policy" value="simple"/>
+    <field name="x" value="100.000000%"/>
+    <field name="y" value="10.000000%"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="1"/>
+    <field name="green" value="1"/>
+    <field name="blue" value="1"/>
+    <field name="alpha" value="1"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000px"/>
+    <field name="y" value="0.000000px"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000px"/>
+    <field name="right" value="0.000000px"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="616932a4-fb6f-5dbd-98cb" name="up_bar" type="node.rect">
+   <parameter name="visible" value="false"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-top"/>
+   <parameter name="rect.size">
+    <field name="policy" value="simple"/>
+    <field name="x" value="100.000000%"/>
+    <field name="y" value="10.000000%"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="1"/>
+    <field name="green" value="1"/>
+    <field name="blue" value="1"/>
+    <field name="alpha" value="1"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000px"/>
+    <field name="y" value="0.000000px"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000px"/>
+    <field name="right" value="0.000000px"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="616a27e4-6ef5-62d4-ed35" name="text_bear" type="rect.image">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-bottom"/>
+   <parameter name="rect.size">
+    <field name="policy" value="simple"/>
+    <field name="x" value="700.000000px"/>
+    <field name="y" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000px"/>
+    <field name="y" value="0.000000px"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000px"/>
+    <field name="right" value="0.000000px"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="616a2805-d78-758-f91-d3c"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="616a2c60-fe4f-73d7-7664" name="marker_fox" type="node.marker">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="1">
+    <item index="1" value="616a2d3d-8e11-f7a8-1d2b"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="-0.010960726949712"/>
+    <field name="y" value="0.11759913960995"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="image"/>
+   <parameter name="pattern" value="616a2cf3-ef2-f28-e19-fbd"/>
+   <parameter name="gridSize">
+    <field name="x" value="4"/>
+    <field name="y" value="4"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.1"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="616a2ccf-1aec-9e55-cfc2" name="marker_sova" type="node.marker">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="1">
+    <item index="1" value="616a2d50-8b4f-45bf-7fc7"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="-0.11624714242358"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="image"/>
+   <parameter name="pattern" value="616a2ce3-c89-41a-cf1-eef"/>
+   <parameter name="gridSize">
+    <field name="x" value="4"/>
+    <field name="y" value="4"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.1"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="616a2d3d-8e11-f7a8-1d2b" name="model_fox" type="node.model">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="trans">
+    <field name="x" value="-0.0017109559485265"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.043969087407764"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="-90"/>
+    <field name="z" value="-90"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.00039427070479585"/>
+    <field name="y" value="0.00039427070479585"/>
+    <field name="z" value="0.00039427070479585"/>
+   </parameter>
+   <parameter name="model" value="616a49dc-5c3-54c-f17-a8a"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="616a2d50-8b4f-45bf-7fc7" name="model_sova" type="node.model">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="trans">
+    <field name="x" value="-0.12795144239582"/>
+    <field name="y" value="0.018683259884708"/>
+    <field name="z" value="0.059250716886657"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="-90"/>
+    <field name="z" value="-90"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.00025202135373626"/>
+    <field name="y" value="0.00025202135373626"/>
+    <field name="z" value="0.00025202135373626"/>
+   </parameter>
+   <parameter name="model" value="616a468c-aab-3ac-f66-1e9"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="616a32a0-8133-ae52-ea81" name="marker_group" type="node.marker">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="4">
+    <item index="1" value="616a38f7-e8b8-1c8e-5cd9"/>
+    <item index="2" value="616a33c6-9ea4-5a26-7521"/>
+    <item index="3" value="616a3b68-2b48-e2d7-ba61"/>
+    <item index="4" value="616a42fe-1d92-ce8a-6bd6"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="0.10965625297072"/>
+    <field name="y" value="0.069657304997007"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="image"/>
+   <parameter name="pattern" value="616a3348-628-415-5a1-5b3"/>
+   <parameter name="gridSize">
+    <field name="x" value="8"/>
+    <field name="y" value="6"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.1"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="616a33c6-9ea4-5a26-7521" name="group_bear" type="node.model">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="trans">
+    <field name="x" value="0.047836978375427"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.03608152683906"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="-90"/>
+    <field name="z" value="-90"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.00021802099500197"/>
+    <field name="y" value="0.00021802099500197"/>
+    <field name="z" value="0.00021802099500197"/>
+   </parameter>
+   <parameter name="model" value="616a3150-feb-7dc-363-129"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="616a345f-789c-811f-64c8" name="text_tiger" type="rect.image">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-bottom"/>
+   <parameter name="rect.size">
+    <field name="policy" value="simple"/>
+    <field name="x" value="700.000000px"/>
+    <field name="y" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000px"/>
+    <field name="y" value="0.000000px"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000px"/>
+    <field name="right" value="0.000000px"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="616a3be2-1a6-6eb-2d4-dc5"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="616a3469-2457-6579-a42d" name="text_sova" type="rect.image">
+   <parameter name="visible" value="false"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-bottom"/>
+   <parameter name="rect.size">
+    <field name="policy" value="simple"/>
+    <field name="x" value="700.000000px"/>
+    <field name="y" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000px"/>
+    <field name="y" value="0.000000px"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000px"/>
+    <field name="right" value="0.000000px"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="616a3bfa-4db-adb-12e-24d"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="616a3473-9633-4cb1-44f8" name="text_fox" type="rect.image">
+   <parameter name="visible" value="false"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-bottom"/>
+   <parameter name="rect.size">
+    <field name="policy" value="simple"/>
+    <field name="x" value="700.000000px"/>
+    <field name="y" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000px"/>
+    <field name="y" value="0.000000px"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000px"/>
+    <field name="right" value="0.000000px"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="616a3c07-dff-9fb-6a2-38e"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="616a38f7-e8b8-1c8e-5cd9" name="group_fox" type="node.model">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="trans">
+    <field name="x" value="-0.031967587540654"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.030237212085388"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="-90"/>
+    <field name="z" value="-90"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.00026488211288915"/>
+    <field name="y" value="0.00026488211288915"/>
+    <field name="z" value="0.00026488211288915"/>
+   </parameter>
+   <parameter name="model" value="616a3539-977-657-ce9-371"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="616a3a20-e8d8-abd4-4aab" name="model01" type="node.model">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.030674163728124"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="-15.172356649587"/>
+    <field name="y" value="-91.195653438717"/>
+    <field name="z" value="-85.440602262468"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.00019501386887954"/>
+    <field name="y" value="0.00019501386887954"/>
+    <field name="z" value="0.00019501386887954"/>
+   </parameter>
+   <parameter name="model" value="616a3150-feb-7dc-363-129"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="616a3b68-2b48-e2d7-ba61" name="group_tiger" type="node.model">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="trans">
+    <field name="x" value="-0.022268677330956"/>
+    <field name="y" value="0.013342258335594"/>
+    <field name="z" value="0.02502446421094"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="-90"/>
+    <field name="z" value="-90"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.00023911544215961"/>
+    <field name="y" value="0.00023911544215961"/>
+    <field name="z" value="0.00023911544215961"/>
+   </parameter>
+   <parameter name="model" value="616a4640-b39-54c-3c2-a12"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="616a3e34-9da3-db3c-fc1a" name="telegram_stickers" type="node.marker">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="trans">
+    <field name="x" value="0.011995723894331"/>
+    <field name="y" value="-0.083176399584718"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="image"/>
+   <parameter name="pattern" value="616a41a0-f6e-3c6-bd2-eae"/>
+   <parameter name="gridSize">
+    <field name="x" value="4"/>
+    <field name="y" value="4"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.1"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="616a42fe-1d92-ce8a-6bd6" name="mode_sova" type="node.model">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="trans">
+    <field name="x" value="-0.24919201610661"/>
+    <field name="y" value="0.020962214723493"/>
+    <field name="z" value="0.038838934642774"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="-90"/>
+    <field name="z" value="-90"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.00027719925714186"/>
+    <field name="y" value="0.00027719925714186"/>
+    <field name="z" value="0.00027719925714186"/>
+   </parameter>
+   <parameter name="model" value="616a425b-df2-7a5-c2c-e59"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="616a5dc5-8e88-7d27-ff46" name="image01" type="rect.image">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="0"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-center"/>
+   <parameter name="rect.size">
+    <field name="policy" value="simple"/>
+    <field name="x" value="1000.000000px"/>
+    <field name="y" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000px"/>
+    <field name="y" value="0.000000px"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000px"/>
+    <field name="right" value="0.000000px"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="616a5dbf-feb-eda-f89-e75"/>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="HeadUpDisplay" name="HeadUpDisplay" type="node.hud">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="3">
+    <item index="1" value="6168f8ec-313b-26d4-f7cb"/>
+    <item index="2" value="6168da9a-cd25-2222-6e47"/>
+    <item index="3" value="6168d886-8b8a-2414-9c8b"/>
+   </parameter>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+  <reactor id="System" name="System" type="system">
+   <parameter name="albumName" value="evi_app"/>
+   <field name="exportEnabled" value="true"/>
+  </reactor>
+  <reactor id="scene" name="Scene" type="node.scene">
+   <parameter name="visible" value="true"/>
+   <parameter name="handleClick" value="true"/>
+   <parameter name="children" length="7">
+    <item index="1" value="6168d27f-ee76-66bd-8cae"/>
+    <item index="2" value="6168d429-2dd7-ee87-eb1d"/>
+    <item index="3" value="HeadUpDisplay"/>
+    <item index="4" value="616a2c60-fe4f-73d7-7664"/>
+    <item index="5" value="616a2ccf-1aec-9e55-cfc2"/>
+    <item index="6" value="616a32a0-8133-ae52-ea81"/>
+    <item index="7" value="616a3e34-9da3-db3c-fc1a"/>
+   </parameter>
+   <field name="exportEnabled" value="true"/>
+   <field name="sectionItemCollapsed" value="false"/>
+  </reactor>
+ </reactors>
+ <exportParameters last="apk">
+  <parameters format="apk" filename="C:\Users\6\Downloads\AnimalDayStudio.apk" appName="AnimalDayStudio" appId="ru.CyberBytes.AnimalDayStudio" arch="arm64" version="1.0" build="1" configurationFile="" appIconPath="C:/Program Files/EligoVision Toolbox 3.2.4 Standard Edu/studio_data//AppIcon.png" loadingImagePath="C:/Program Files/EligoVision Toolbox 3.2.4 Standard Edu/studio_data//LaunchImage.png" category="" copyright="" runAfterExport="false" frameMode="" supportedOrientations="1" frameSize.width="1280" frameSize.height="720" frameShift.x="0" frameShift.y="0" samples="0" startOnLastDisplay="false" noborder="false" alwaysOnTop="false" frameSize.maximize="false" frameSize.ignoreWindowDecoration="true" frameShift.centering="true" retinaSupport="true" appStoreDistribution="false" bundleName="Malachite_Quince - EVI Android App" cameraDescription="" photolibraryDescription="" deviceMotionDescription="" selectedPreset="1" targetApi="28">
+   <presets>
+    <preset name="User Preset">
+     <files>
+      <file name="AndroidManifest.xml" path="${ANDROID_DATA_DIR}/AndroidManifest.xml.in"/>
+      <file name="build.gradle" path="${ANDROID_DATA_DIR}/build.gradle.in"/>
+      <file name="gradle.properties" path="${ANDROID_DATA_DIR}/gradle.properties.in"/>
+      <file name="local.properties" path="${ANDROID_DATA_DIR}/local.properties.in"/>
+     </files>
+    </preset>
+   </presets>
+  </parameters>
+  <parameters format="exe" filename="D://Malachite_Quince.exe" appName="Malachite_Quince - EVI Windows App" appId="Malachite.Quince" arch="x64" version="1.0" build="1" configurationFile="" appIconPath="D:/EligoVision Toolbox 3.2.4 Trial/studio_data//AppIcon.png" loadingImagePath="D:/EligoVision Toolbox 3.2.4 Trial/studio_data//LaunchImage.png" category="" copyright="" runAfterExport="false" frameMode="window" supportedOrientations="1" frameSize.width="1280" frameSize.height="720" frameShift.x="0" frameShift.y="0" samples="0" startOnLastDisplay="false" noborder="false" alwaysOnTop="false" frameSize.maximize="false" frameSize.ignoreWindowDecoration="true" frameShift.centering="true" retinaSupport="true" appStoreDistribution="false" bundleName="Malachite_Quince - EVI Windows App" cameraDescription="" photolibraryDescription="" deviceMotionDescription=""/>
+ </exportParameters>
+</Project>
